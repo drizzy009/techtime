@@ -1,6 +1,12 @@
 import hero_image from "./hero_image.png";
 import menu from "./menu.svg";
+import crown from "./crown.svg";
 import close from "./close.svg";
+import audio from "./audio.png";
+import live from "./live.png";
+import points from "./points.svg";
+import record from "./record.png";
+import notes from "./notes.png";
 import adam from "./adam.png";
 import jeff from "./jeff.png";
 import samuel from "./samuel.png";
@@ -55,10 +61,16 @@ export {
   close,
   zoom,
   stripe,
+  points,
   slack,
   monday,
   dropbox,
   menu,
+  crown,
+  audio,
+  live,
+  record,
+  notes,
   person,
   person_1,
   person_2,
