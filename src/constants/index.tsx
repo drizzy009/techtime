@@ -9,12 +9,9 @@ import {
   book,
   person_5,
   person_7,
-  unsplash_1,
-  unsplash_2,
   unsplash_3,
   unsplash_4,
   unsplash_5,
-  unsplash_6,
   unsplash_7,
   unsplash_8,
   unsplash_9,
@@ -87,9 +84,11 @@ export const partners = [
 
 export const Categories = [
   {
-    banner: unsplash_3,
+    banner: unsplash_4,
     button: "Design",
-    rateno: `4.7k ${grade}&nbsp;(32.7k+)`,
+    rateno: "4.7k",
+    rateicon: grade,
+    rating: "(32.7k+)",
     h2: "Introduction to user research in UX Design",
     timeicon: schedule,
     time: "23hrs 50mins",
@@ -100,22 +99,26 @@ export const Categories = [
     price: "$15.00",
   },
   {
-    banner: unsplash_4,
+    banner: unsplash_5,
     button: "Marketing",
-    rateno: `4.7k ${grade}&nbsp;(8.7k+)`,
+    rateno: "4.7k",
+    rateicon: grade,
+    rating: "(8.7k+)",
     h2: "Introduction to  new marketing audience",
     timeicon: schedule,
     time: "22hrs 30mins",
     bookicon: book,
     lessons: "22 Lessons",
     authorimage: jeff,
-    author: "Jeffrey williams",
+    author: "Jeffrey Williams",
     price: "$32.00",
   },
   {
-    banner: unsplash_5,
+    banner: unsplash_3,
     button: "Development",
-    rateno: `4.7k ${grade}&nbsp;(4.7k+)`,
+    rateno: "4.7k",
+    rateicon: grade,
+    rating: "(4.7k+)",
     h2: "Introduction to HTML, CSS & Bootstrap",
     timeicon: schedule,
     time: "45hrs 50mins",
@@ -126,9 +129,11 @@ export const Categories = [
     price: "$55.00",
   },
   {
-    banner: unsplash_6,
+    banner: unsplash_8,
     button: "Development",
-    rateno: `4.7k ${grade}&nbsp;(32.7k+)`,
+    rateno: "4.7k",
+    rateicon: grade,
+    rating: "(32.7k+)",
     h2: "Introduction to Javascript, Git & GitHub",
     timeicon: schedule,
     time: "30hrs 50mins",
@@ -141,7 +146,9 @@ export const Categories = [
   {
     banner: unsplash_7,
     button: "Marketing",
-    rateno: `4.7k ${grade}&nbsp;(4.7k+)`,
+    rateno: `4.7k`,
+    rateicon: grade,
+    rating: "(4.7k+)",
     h2: "Introduction to outroom  marketing analysis",
     timeicon: schedule,
     time: "33hrs 50mins",
@@ -152,12 +159,14 @@ export const Categories = [
     price: "$25.00",
   },
   {
-    banner: unsplash_8,
-    button: "",
-    rateno: `4.7k ${grade}&nbsp;(.7k+)`,
-    h2: "",
+    banner: unsplash_9,
+    button: "Marketing",
+    rateno: `4.7k`,
+    rateicon: grade,
+    rating: "(15.7k+)",
+    h2: "Introduction to live  marketing analysis",
     timeicon: schedule,
-    time: "hrs mins",
+    time: "10hrs 50mins",
     bookicon: book,
     lessons: "32 Lessons",
     authorimage: adam,
@@ -192,24 +201,28 @@ export const Testimonials = [
 
 export const Cards = [
   {
+    key: "h3_1",
     cardimg: rss,
     h3: "Experienced Mentors",
     cardtext:
       "High-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. ",
   },
   {
+    key: "h3_2",
     cardimg: clock,
     h3: "One-On-One Meetings",
     cardtext:
       "High-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. ",
   },
   {
+    key: "h3_3",
     cardimg: people,
     h3: "One-On-One Meetings",
     cardtext:
       "High-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. ",
   },
   {
+    key: "h3_4",
     cardimg: dollar,
     h3: "Affordable Prices",
     cardtext:
@@ -228,7 +241,7 @@ export const CategoryMenu = [
   },
   {
     id: "development",
-    title: "development",
+    title: "Development",
   },
   {
     id: "marketing",

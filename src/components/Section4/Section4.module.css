@@ -1,0 +1,67 @@
+.section4_container {
+  padding: 0 120px 56px;
+  background-color: #f8f9fc;
+}
+
+.section4_flexbox {
+  display: flex;
+}
+
+.section4_col1 {
+  flex-basis: 50%;
+}
+
+.section4_col2 {
+  flex-basis: 50%;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  place-content: center;
+  gap: 24px;
+  margin-left: 100px;
+}
+
+.section4_col1 h2 {
+  font-family: "Clash Display";
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  color: #000f24;
+  margin-bottom: 32px;
+}
+
+.section4_col1 p {
+  margin-bottom: 32px;
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #a1a1a1;
+}
+
+.section4_col1 img {
+  width: 100%;
+}
+
+.section4_card h3 {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.section4_card p {
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 28px;
+  color: #a2a2a2;
+}
+
+.section4_card {
+  background-color: #fff;
+  padding: 32px 24px;
+  border-radius: 8px;
+}
