@@ -1,5 +1,5 @@
 import { Carousel } from "antd";
-import { useRef } from "react";
+
 import { _Carousel } from "../../constants";
 import style from "./Carousel.module.css";
 
