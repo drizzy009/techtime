@@ -1,0 +1,147 @@
+.community_container {
+  padding: 56px 120px 56px;
+  background-color: #004db3;
+}
+
+.community_topic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.community_topic span {
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.community_topic h2 {
+  font-family: "Clash Display";
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+  width: 85%;
+  padding: 20px 0;
+}
+
+.community_topic p {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.community_users {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.community_map {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.community_map img {
+  object-fit: contain;
+  width: 65%;
+}
+
+.community_users img:nth-child(1) {
+  position: absolute;
+  left: 340px;
+  transform: translateY(-300px);
+}
+.community_users img:nth-child(2) {
+  position: absolute;
+  left: 525px;
+  transform: translateY(-220px);
+  background: #ff77d9;
+  border-radius: 100%;
+  border: 2px solid #fff;
+}
+.community_users img:nth-child(3) {
+  position: absolute;
+  left: 525px;
+  transform: translateY(-50px);
+}
+.community_users img:nth-child(4) {
+  position: absolute;
+  left: 638px;
+  transform: translateY(-300px);
+  background: #6640ff;
+  border-radius: 100%;
+  border: 2px solid #fff;
+  width: 48px;
+  height: 48px;
+}
+.community_users img:nth-child(5) {
+  position: absolute;
+  left: 770px;
+  transform: translateY(-260px);
+}
+.community_users img:nth-child(6) {
+  position: absolute;
+  left: 725px;
+  transform: translateY(-110px);
+  width: 64px;
+  height: 64px;
+}
+.community_users img:nth-child(7) {
+  position: absolute;
+  left: 880px;
+  transform: translateY(-254px);
+  background: #ff77d9;
+  border-radius: 100%;
+  border: 2px solid #fff;
+}
+.community_users img:nth-child(8) {
+  position: absolute;
+  left: 1010px;
+  transform: translateY(-320px);
+}
+.community_users img:nth-child(9) {
+  position: absolute;
+  left: 1030px;
+  transform: translateY(-150px);
+}
+.community_users img:nth-child(10) {
+  position: absolute;
+  left: 970px;
+  transform: translateY(-36px);
+  background: #6640ff;
+  border-radius: 100%;
+  border: 2px solid #fff;
+}
+
+.community_btn {
+    margin-top: 46px;
+    display: flex;
+    justify-content: center;
+}
+
+.community_btn a {
+  font-family: "Satoshi";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #004db3;
+  padding: 16px 32px;
+  background: #ffffff;
+  border-radius: 4px;
+  
+}

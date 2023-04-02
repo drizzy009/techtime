@@ -33,9 +33,9 @@ function Section5() {
                   </a>
                   <span className={style.section5_span1}>
                     {cat.rateno}
-                    &nbsp;
+                    
                     <img src={cat.rateicon} alt={"rating icon"} />
-                    &nbsp;
+                    
                     {cat.rating}
                   </span>
                 </div>

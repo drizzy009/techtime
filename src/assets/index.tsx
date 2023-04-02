@@ -55,6 +55,7 @@ import stripe from "./stripe.svg";
 import monday from "./monday.svg";
 import slack from "./slack.svg";
 import dropbox from "./dropbox.svg";
+import map from './map.png'
 
 export {
   hero_image,
@@ -114,4 +115,5 @@ export {
   rss,
   person0,
   person00,
+  map
 };

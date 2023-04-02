@@ -59,18 +59,12 @@ function Faq() {
         <button
           className={`${styles.question_section} ${active}`}
           onClick={toggleAccordion}
-          type="button"
+          type='button'
         >
           <div>
             <div className={styles.question_align}>
-              <h4
-                className={
-                  active
-                    ? `${styles.question_styling}`
-                    : `${styles.question_style}`
-                }
-              >
-                Is there a free trial available?
+              <h4 className={styles.question_style}>
+              Is there a free trial available?
               </h4>
               <FiPlus
                 className={
@@ -88,13 +82,7 @@ function Faq() {
                   : `${styles.answer}`
               }
             >
-              <p>
-                High-defination video is video of higher resolution and quality
-                than standard definition. high-defination video is video of
-                higher resolution and quality than standard definition. hbuild
-                your future with our quality education. the best and largest
-                all-in-one online tutoring platform in the worldd definition.{" "}
-              </p>
+              <p>High-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. </p>
             </div>
           </div>
         </button>
@@ -102,7 +90,7 @@ function Faq() {
         <button
           className={`${styles.question_section} ${active1}`}
           onClick={toggleAccordion1}
-          type="button"
+          type='button'
         >
           <div>
             <div className={styles.question_align}>
@@ -133,7 +121,7 @@ function Faq() {
         <button
           className={`${styles.question_section} ${active2}`}
           onClick={toggleAccordion2}
-          type="button"
+          type='button'
         >
           <div>
             <div className={styles.question_align}>
