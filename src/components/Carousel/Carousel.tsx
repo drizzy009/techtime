@@ -5,7 +5,7 @@ import style from "./Carousel.module.css";
 
 
 function Carousl() {
-  const ref = useRef();
+  
   
   return (
     <>
@@ -13,7 +13,7 @@ function Carousl() {
         style={{width: '100%'}}
         pauseOnHover={true}
         draggable
-        ref={ref}
+        
         slidesToShow={3}
         dots
       >
