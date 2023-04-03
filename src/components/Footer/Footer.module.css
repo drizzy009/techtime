@@ -1,0 +1,101 @@
+.footer_container {
+  padding: 56px 120px 56px;
+  background-color: #000f24;
+}
+
+.mb_4 {
+  margin-bottom: 16px;
+}
+
+.mb_0 {
+  margin-bottom: 0;
+}
+
+.footer_flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_col1 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex-basis: 25%;
+}
+
+.footer_col1 p {
+  font-family: "Satoshi";
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.footer_miniflex {
+  display: flex;
+  gap: 12px;
+}
+
+.footer_col2 {
+  display: flex;
+  gap: 50px;
+}
+
+.footer_col2_child ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer_col2_child h4 {
+  font-family: "Clash Display";
+  color: #fff;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  margin: 0 0 32px;
+}
+
+.footer_col2_child li a {
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.footer_col3 {
+   display: flex;
+   flex-direction: column;
+   justify-content: right;
+}
+
+.footer_col3 h3 {
+  margin: 0 0 32px;
+  font-family: "Clash Display";
+  color: #fff;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  margin: 0 0 32px;
+}
+
+.footer_col3 input[type="email"] {
+  background: #2a2a2b;
+  border: 1px solid #054fb3;
+  border-radius: 2px 0px 0px 2px;
+  padding: 16px;
+  outline: none;
+  border-right: 0;
+}
+.footer_col3 button {
+  background: #054fb3;
+  border-radius: 0px 2px 2px 0px;
+  border: 0;
+  padding: 15.9px 20px;
+  font-family: "Satoshi";
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+}

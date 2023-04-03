@@ -250,10 +250,9 @@ export const CategoryMenu = [
   },
 ];
 
-
 export const _Carousel = [
   {
-    key: 'Bella',
+    key: "Bella",
     testimonial: `High-defination video is video of higher resolution and quality
     than standard definition. high-defination video is video of higher
     resolution and quality than standard definition. hbuild your
@@ -263,11 +262,11 @@ export const _Carousel = [
     definition. build your future with our quality education. the best
     and largest all-in-one online tutoring platform in the world`,
     img: person_5,
-    name: 'Bella Moon',
-    job: 'Product Designer'
+    name: "Bella Moon",
+    job: "Product Designer",
   },
   {
-    key: 'Samuel',
+    key: "Samuel",
     testimonial: `High-defination video is video of higher resolution and quality
     than standard definition. high-defination video is video of higher
     resolution and quality than standard definition. hbuild your
@@ -277,11 +276,11 @@ export const _Carousel = [
     definition. build your future with our quality education. the best
     and largest all-in-one online tutoring platform in the world`,
     img: samuel,
-    name: 'Samuel Fortune',
-    job: 'Product Designer'
+    name: "Samuel Fortune",
+    job: "Product Designer",
   },
   {
-    key: 'Bryce',
+    key: "Bryce",
     testimonial: `High-defination video is video of higher resolution and quality
     than standard definition. high-defination video is video of higher
     resolution and quality than standard definition. hbuild your
@@ -291,11 +290,11 @@ export const _Carousel = [
     definition. build your future with our quality education. the best
     and largest all-in-one online tutoring platform in the world`,
     img: person_6,
-    name: 'Bryce Jason',
-    job: 'Product Designer'
+    name: "Bryce Jason",
+    job: "Product Designer",
   },
   {
-    key: 'Samuel',
+    key: "Samuel",
     testimonial: `High-defination video is video of higher resolution and quality
     than standard definition. high-defination video is video of higher
     resolution and quality than standard definition. hbuild your
@@ -305,7 +304,60 @@ export const _Carousel = [
     definition. build your future with our quality education. the best
     and largest all-in-one online tutoring platform in the world`,
     img: samuel,
-    name: 'Samuel Fortune',
-    job: 'Product Designer'
-  }
-]
+    name: "Samuel Fortune",
+    job: "Product Designer",
+  },
+];
+
+export const footerLinks = [
+  {
+    title: "Useful Links",
+    links: [
+      {
+        name: "Home",
+        url: "/",
+      },
+      {
+        name: "About Us",
+        url: "/",
+      },
+      {
+        name: "Our Courses",
+        url: "/",
+      },
+      {
+        name: "Testimonials",
+        url: "/",
+      },
+      {
+        name: "Our Community",
+        url: "/",
+      },
+    ],
+  },
+  {
+    title: "Community",
+    links: [
+      {
+        name: "Help Centers",
+        url: "/",
+      },
+      {
+        name: "Partners",
+        url: "/",
+      },
+      {
+        name: "Suggestion",
+        url: "/",
+      },
+      {
+        name: "Blog",
+        url: "/",
+      },
+      {
+        name: "Newsletter",
+        url: "/",
+      },
+    ],
+  },
+];

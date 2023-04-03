@@ -72,3 +72,19 @@
     padding: 6px;
   }
 }
+
+.mb_4 {
+  margin-bottom: 16px;
+}
+
+.mb_0 {
+  margin-bottom: 0;
+}
+
+.textWhite {
+  color: #fff;
+}
+
+.dimWhite {
+  color: #e7e7e7;
+}

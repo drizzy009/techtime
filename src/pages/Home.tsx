@@ -7,6 +7,7 @@ import Section5 from '../components/Section5/Section5';
 import Section6 from '../components/Section6/Section6';
 import Partners from './../components/Partners/Partners';
 import Faq from '../components/Faq/Faq';
+import Footer from '../components/Footer/Footer';
 
 function Home() {
 
@@ -21,6 +22,7 @@ function Home() {
       <Section6/>
       <Community/>
       <Faq/>
+      <Footer/>
     </>
   )
 }

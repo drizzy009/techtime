@@ -16,6 +16,7 @@ function Nav() {
   return (
     <nav style={navStyles}>
       <img src={techtime} alt={"techtime logo"} />
+      {/*Desktop Menu */}
       <ul className={style.main_nav}>
         {navList.map((navLists, index) => (
           <li
@@ -29,10 +30,11 @@ function Nav() {
         ))}
       </ul>
 
+      {/*Mobile Harmbuger Menu */}
       <div className={style.main_navmobile}>
         <img
           src={toggle ? close : menu}
-          alt="harmburger"
+          alt="menu"
           onClick={() => setToggle(!toggle)}
         />
 
@@ -43,8 +45,20 @@ function Nav() {
         >
           <ul>
             {navList.map((navLists, index) => (
-              <li key={navLists.id} onClick={() => setActive(navLists.title)}>
-                <a href={`#${navLists.id}`}>{navLists.title}</a>
+              <li
+                key={navLists.id}
+                className={` ${
+                  index === navList.length - 1 ? style.mb_0 : style.mb_4
+                }`}
+                onClick={() => setActive(navLists.title)}
+              >
+                <a
+                  href={`${
+                    active === navLists.title ? style.textWhite : style.dimWhite
+                  } #${navLists.id}`}
+                >
+                  {navLists.title}
+                </a>
               </li>
             ))}
           </ul>

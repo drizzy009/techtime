@@ -38,8 +38,8 @@
   color: #000;
   font-family: "Satoshi";
   font-weight: 900;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .question_styling {
@@ -50,7 +50,7 @@
 .question_icon {
   background: none;
   border: none;
-  color: #1b6aae;
+  color: #000f24;
   cursor: pointer;
   font-size: 22px;
   margin-left: auto;
