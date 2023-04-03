@@ -25,7 +25,14 @@ function Nav() {
               index === navList.length - 1 ? style.main_mr_0 : style.main_mr_10
             }`}
           >
-            <a href={`#${navLists.id}`}>{navLists.title}</a>
+            <a
+              href={`#${navLists.id}`}
+              className={`${
+                active === navLists.title ? style.textWhite : style.dimWhite
+              }`}
+            >
+              {navLists.title}
+            </a>
           </li>
         ))}
       </ul>
@@ -41,7 +48,7 @@ function Nav() {
         <div
           className={`${
             !toggle ? style.main_navmobile_hidden : style.main_navmobile_flex
-          } ${style.main_navmobile_1}`}
+          } ${style.main_navmobile_1} ${style.sidebar}`}
         >
           <ul>
             {navList.map((navLists, index) => (
@@ -53,9 +60,10 @@ function Nav() {
                 onClick={() => setActive(navLists.title)}
               >
                 <a
-                  href={`${
+                  href={`#${navLists.id}`}
+                  className={`${
                     active === navLists.title ? style.textWhite : style.dimWhite
-                  } #${navLists.id}`}
+                  }`}
                 >
                   {navLists.title}
                 </a>

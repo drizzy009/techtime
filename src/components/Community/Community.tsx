@@ -15,7 +15,7 @@ import style from "./Community.module.css";
 
 function Community() {
   return (
-    <section className={style.community_container}>
+    <section className={style.community_container} id="community">
       <div className={style.community_topic}>
         <span aria-hidden="true" aria-label="Join our community">
           Join our community

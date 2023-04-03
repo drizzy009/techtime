@@ -3,7 +3,7 @@ import style from "./Section5.module.css";
 
 function Section5() {
   return (
-    <section className={style.section5_container}>
+    <section className={style.section5_container} id="courses">
       <div>
         <div className={style.section5_row1}>
           <h2>Browse our Popular Courses</h2>
@@ -33,9 +33,9 @@ function Section5() {
                   </a>
                   <span className={style.section5_span1}>
                     {cat.rateno}
-                    
+
                     <img src={cat.rateicon} alt={"rating icon"} />
-                    
+
                     {cat.rating}
                   </span>
                 </div>
@@ -64,10 +64,10 @@ function Section5() {
           </div>
         </div>
         <div className={style.section5_lastbtn}>
-            <a href="/" role={'button'}>
-              Explore all courses
-            </a>
-          </div>
+          <a href="/" role={"button"}>
+            Explore all courses
+          </a>
+        </div>
       </div>
     </section>
   );

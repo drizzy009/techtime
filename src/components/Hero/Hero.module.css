@@ -29,7 +29,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  color: #E7E7E7;
+  color: #e7e7e7;
 }
 
 .hero_banner {
@@ -141,17 +141,78 @@
 }
 
 .hero_users_container span {
-    font-size: 16px;
-    line-height: 21.6px;
-    font-family: 'Satoshi';
-    color: #e7e7e7;
-    font-weight: 500;
-    
+  font-size: 16px;
+  line-height: 21.6px;
+  font-family: "Satoshi";
+  color: #e7e7e7;
+  font-weight: 500;
 }
-
 
 @media screen and (max-width: 767px) {
   .hero_background {
     padding: 30px 30px 0;
   }
+  .hero_flex {
+    flex-direction: column;
+    margin-top: 60px;
+  }
+
+  .hero_content {
+    align-items: center;
+    justify-content: center;
+  }
+  .hero_content h1 {
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+  }
+  .hero_content p {
+    text-align: center;
+    width: 80%;
+  }
+  .hero_btn {
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero_btn a {
+    font-size: 14px;
+  }
+
+  .hero_users_container {
+    display: flex;
+  }
+
+.hero_users img {
+  width: 32px;
+  height: 32px;
+}
+
+  .hero_users img:nth-child(1) {
+    position: relative;
+    z-index: 1;
+   
+  }
+  .hero_users img:nth-child(2) {
+    position: relative;
+    z-index: 2;
+ 
+  }
+  .hero_users img:nth-child(3) {
+    position: relative;
+    z-index: 3;
+
+  }
+  .hero_users img:nth-child(4) {
+    position: relative;
+    z-index: 4;
+ 
+  }
+  .hero_users img:nth-child(5) {
+    position: relative;
+    z-index: 5;
+  
+  }
+
 }
