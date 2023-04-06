@@ -13,6 +13,14 @@ function Nav() {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
 
+  function handleMenuClick() {
+    setToggle(!toggle);
+  }
+
+  function handleLinkClick() {
+    setToggle(false);
+  }
+
   return (
     <nav style={navStyles}>
       <img src={techtime} alt={"techtime logo"} />
@@ -42,7 +50,7 @@ function Nav() {
         <img
           src={toggle ? close : menu}
           alt="menu"
-          onClick={() => setToggle(!toggle)}
+          onClick={handleMenuClick}
         />
 
         <div
@@ -57,7 +65,10 @@ function Nav() {
                 className={` ${
                   index === navList.length - 1 ? style.mb_0 : style.mb_4
                 }`}
-                onClick={() => setActive(navLists.title)}
+                onClick={() => {
+                  setActive(navLists.title);
+                  handleLinkClick();
+                }}
               >
                 <a
                   href={`#${navLists.id}`}
