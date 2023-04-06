@@ -128,9 +128,9 @@
 }
 
 .community_btn {
-    margin-top: 46px;
-    display: flex;
-    justify-content: center;
+  margin-top: 46px;
+  display: flex;
+  justify-content: center;
 }
 
 .community_btn a {
@@ -143,5 +143,94 @@
   padding: 16px 32px;
   background: #ffffff;
   border-radius: 4px;
-  
+}
+
+@media screen and (max-width: 767px) {
+  .community_container {
+    padding: 30px 30px 50px;
+  }
+
+  .community_topic span {
+    font-size: 16px;
+  }
+  .community_topic h2 {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  .community_map img {
+    object-fit: contain;
+    width: 100%;
+  }
+  .community_users img {
+    width: 30px;
+    height: 30px;
+  }
+  .community_users img:nth-child(1) {
+    position: absolute;
+    left: 40px;
+    transform: translateY(-130px);
+  }
+  .community_users img:nth-child(2) {
+    position: absolute;
+    left: 105px;
+    transform: translateY(-90px);
+    background: #ff77d9;
+    border-radius: 100%;
+    border: 2px solid #fff;
+  }
+  .community_users img:nth-child(3) {
+    position: absolute;
+    left: 105px;
+    transform: translateY(-10px);
+  }
+  .community_users img:nth-child(4) {
+    position: absolute;
+    left: 150px;
+    transform: translateY(-130px);
+    background: #6640ff;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    width: 25px;
+    height: 25px;
+  }
+  .community_users img:nth-child(5) {
+    position: absolute;
+    left: 210px;
+    transform: translateY(-110px);
+  }
+  .community_users img:nth-child(6) {
+    position: absolute;
+    left: 200px;
+    transform: translateY(-30px);
+    width: 30px;
+    height: 30px;
+  }
+  .community_users img:nth-child(7) {
+    position: absolute;
+    left: 275px;
+    transform: translateY(-110px);
+    background: #ff77d9;
+    border-radius: 100%;
+    border: 2px solid #fff;
+  }
+  .community_users img:nth-child(8) {
+    position: absolute;
+    left: 330px;
+    transform: translateY(-150px);
+  }
+  .community_users img:nth-child(9) {
+    position: absolute;
+    left: 330px;
+    transform: translateY(-80px);
+  }
+  .community_users img:nth-child(10) {
+    position: absolute;
+    left: 320px;
+    transform: translateY(-9px);
+    background: #6640ff;
+    border-radius: 100%;
+    border: 2px solid #fff;
+  }
 }

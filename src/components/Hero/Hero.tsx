@@ -36,7 +36,11 @@ function Hero() {
               <img src={person_8} alt="User 4" />
               <img src={person_9} alt="User 5" />
             </div>
-            <h2>255k+<br/><span>Previews</span></h2>
+            <h2>
+              255k+
+              <br />
+              <span>Previews</span>
+            </h2>
           </div>
         </div>
         <div className={style.hero_banner}>

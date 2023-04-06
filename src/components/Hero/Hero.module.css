@@ -127,6 +127,7 @@
 .hero_users_container {
   display: flex;
   margin-top: 24px;
+  gap: 24px;
 }
 
 .hero_users_container h2 {
@@ -182,37 +183,44 @@
 
   .hero_users_container {
     display: flex;
+    justify-content: space-evenly;
+    height: 47px;
   }
 
-.hero_users img {
-  width: 32px;
-  height: 32px;
-}
+  .hero_users img {
+    width: 48px;
+    height: 48px;
+  }
 
   .hero_users img:nth-child(1) {
     position: relative;
     z-index: 1;
-   
   }
   .hero_users img:nth-child(2) {
     position: relative;
     z-index: 2;
- 
+    left: -15px;
   }
   .hero_users img:nth-child(3) {
     position: relative;
     z-index: 3;
-
+    left: 65px;
+    top: -54px;
   }
   .hero_users img:nth-child(4) {
     position: relative;
     z-index: 4;
- 
+    left: 48px;
+    top: -54px;
   }
   .hero_users img:nth-child(5) {
     position: relative;
     z-index: 5;
-  
+    left: 130px;
+    top: -108px;
   }
-
+  .hero_users_container h2 {
+    font-size: 18px;
+    line-height: 22px;
+  }
 }

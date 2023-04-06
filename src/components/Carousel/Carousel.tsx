@@ -1,20 +1,34 @@
+import { useState, useEffect } from "react";
 import { Carousel } from "antd";
-
 import { _Carousel } from "../../constants";
 import style from "./Carousel.module.css";
 
-
 function Carousl() {
-  
-  
+  const [slidesToShow, setSlidesToShow] = useState(3);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.outerWidth > 1024) {
+        setSlidesToShow(3);
+      } else {
+        setSlidesToShow(1);
+      }
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <>
       <Carousel
-        style={{width: '100%'}}
+        style={{ width: "100%" }}
         pauseOnHover={true}
         draggable
-        
-        slidesToShow={3}
+        slidesToShow={slidesToShow}
         dots
       >
         {_Carousel.map((carousel) => (
